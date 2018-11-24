@@ -158,9 +158,11 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  color: #1EAEDB; 
+  text-decoration: none; }
 a:hover {
-  color: #0FA0CE; }
+  color: #0FA0CE;
+  text-decoration: none; }
 
 
 /* Buttons
@@ -316,14 +318,10 @@ code {
   border-radius: 4px; }
 pre > code {
   display: block;
-  overflow: auto;
-  padding: .2rem .5rem;
-  margin: 0 .2rem;
-  font-size: 90%;
-  white-space: pre;
-  background: #F1F1F1;
-  border: 1px solid #E1E1E1;
-  border-radius: 4px;}
+  padding: 1rem 1.5rem;
+  white-space: pre-wrap;
+  background-color: #000;
+  border-radius: 8px;  }
 
 
 /* Tables
